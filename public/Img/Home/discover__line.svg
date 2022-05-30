@@ -1,15 +1,1 @@
-<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.7998" y="30.6001" width="32.4" height="2.7" rx="1.35" fill="url(#paint0_radial_262_139)"/>
-<rect x="5.40039" y="18.8999" width="5.4" height="9" rx="1.4" fill="#1D2130"/>
-<rect x="15.2998" y="11.7" width="5.4" height="16.2" rx="1.4" fill="#1D2130"/>
-<rect x="25.2002" y="2.69995" width="5.4" height="25.2" rx="1.4" fill="#1D2130"/>
-<defs>
-<radialGradient id="paint0_radial_262_139" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-14.239 23.8501) rotate(9.76422) scale(77.0384 98.9563)">
-<stop offset="0.175497" stop-color="#D798E1"/>
-<stop offset="0.275566" stop-color="#9B9FFF"/>
-<stop offset="0.49892" stop-color="#AED3FF"/>
-<stop offset="0.565292" stop-color="#C9D4EF"/>
-<stop offset="0.656871" stop-color="#CACFFA"/>
-</radialGradient>
-</defs>
-</svg>
+<svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.8" y="30.6" width="32.4" height="2.7" rx="1.35" fill="url(#a)"/><rect x="5.4" y="18.9" width="5.4" height="9" rx="1.4" fill="#1D2130"/><rect x="15.3" y="11.7" width="5.4" height="16.2" rx="1.4" fill="#1D2130"/><rect x="25.2" y="2.7" width="5.4" height="25.2" rx="1.4" fill="#1D2130"/><defs><radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(75.92242 13.06526 -16.7824 97.52282 -14.239 23.85)"><stop offset=".175" stop-color="#D798E1"/><stop offset=".276" stop-color="#9B9FFF"/><stop offset=".499" stop-color="#AED3FF"/><stop offset=".565" stop-color="#C9D4EF"/><stop offset=".657" stop-color="#CACFFA"/></radialGradient></defs></svg>
