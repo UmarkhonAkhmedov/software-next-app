@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 100;
 }
 .nav {
   position: sticky;
@@ -12,6 +13,7 @@
   padding: 8px 0;
 
   &__logo {
+    padding: 7px 0;
     cursor: pointer;
 
     &:hover {
@@ -22,6 +24,10 @@
   &__list {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width:850px){
+      display: none;
+    }
 
     &--link {
       display: flex;
@@ -39,6 +45,51 @@
           
         }
       }
+    }
+  }
+
+  &__icon {
+    display: none;
+    @media screen and (max-width:850px){
+      display: flex;
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      border-radius: 50%;
+      z-index: 10;
+      font-weight: bold;
+
+      &:hover {
+        background-color: rgb(236, 236, 236);
+      }
+    }
+  }
+
+  &__mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 80%;
+    background-color: rgb(250, 250, 250);
+    padding: 50px;
+    z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    &--link {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      a {
+        padding: 10px 0;
+      }
+    }
+    &--button {
+      margin-top: 20px;
     }
   }
 }
