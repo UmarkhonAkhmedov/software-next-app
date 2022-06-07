@@ -3,6 +3,12 @@
   background-image: url("../../public/Img/Home/hero__blur.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 120%;
+
+  @media screen and (max-width:500px){
+    padding: 120px 0 40px 0;
+    background-size: 220%;
+  }
 }
 
 .hero {
@@ -15,6 +21,16 @@
     font-weight: 700;
     font-size: 52px;
     line-height: 57px;
+
+    @media screen and (max-width:800px) {
+      font-size: 44px;
+      line-height: 48px;
+    }
+    @media screen and (max-width:500px) {
+      font-size: 32px;
+      line-height: 35px;
+      margin: 0 auto 14px auto;
+    }
   }
   p {
     max-width: 700px;
@@ -24,6 +40,11 @@
     opacity: 0.87;
     line-height: 25px;
     margin-bottom: 40px;
+    @media screen and (max-width:500px) {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 30px;
+    }
   }
 
   form {
@@ -36,6 +57,10 @@
     padding: 8px 5px;
     background-color: #ffffff;
     border-radius: 18px;
+    @media screen and (max-width:500px){
+      padding: 5px 4px;
+      width: 90%;
+    }
 
     input {
       border: none;
@@ -46,28 +71,38 @@
       height: 45px;
       padding: 10px 20px;
       font-size: 15px;
+      @media screen and (max-width:500px){
+        border-radius: 18px;
+        height: 25px;
+        padding: 5px 10px;
+      }
 
       &::placeholder {
         opacity: 0.8;
         
       }
     }
+    .btn__dark {
+      @media screen and (max-width:500px){
+        padding: 10px 0px;
+        width: 145px;
+      }
+    }
   }
 
-  // &__blur {
-  //   position: absolute;
-  //   width: 524px;
-  //   height: 496px;
-  //   right: 50%;
-  //   top: 20%;
-  //   background: radial-gradient(483.9% 2719.65% at -49.5% -250%, #D798E1 17.55%, #9BFFA5 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%);
-  //   filter: blur(400px);
-  // }
   &__dashboard {
     position: relative;
     display: flex;
     justify-content: center;
     margin: 65px auto 0 auto;
-    ;
+    @media screen and (max-width:500px){
+      margin: 30px auto 0 auto;
+    }
+    img {
+      @media screen and (max-width:500px){
+        
+      }
+    }
+    
   }
 }

@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
 
-    @media screen and (max-width:850px){
+    @media screen and (max-width:800px){
       display: none;
     }
 
@@ -50,7 +50,7 @@
 
   &__icon {
     display: none;
-    @media screen and (max-width:850px){
+    @media screen and (max-width:800px){
       display: flex;
       width: 30px;
       height: 30px;
