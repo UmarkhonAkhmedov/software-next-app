@@ -14,8 +14,20 @@
     flex-wrap: wrap;
     text-align: center;
     row-gap: 30px;
+    column-gap: 15px;
+    justify-items: center;
+    padding: 60px 30px;
+    
+  }
+  @media screen and (max-width:500px){
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 30px;
     column-gap: 20px;
-
+    padding: 60px;
+    padding: 40px 30px;
   }
 
   &__list {
