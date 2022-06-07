@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Heading from '../components/Heading'
 import Hero from '../components/Home/Hero'
 
 
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logo.png"/>
       </Head>
       <Hero />
+      <Heading heading="We have the Best Solution for your Business" title="High-quality" position="center" />
       
     </div>
   )
