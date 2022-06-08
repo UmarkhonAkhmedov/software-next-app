@@ -20,3 +20,13 @@ export const qualityData = [
     text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.'
   }
 ]
+
+export const footerProduct = [
+  "Project Management", 
+  "Time Tracker",
+  "Time Schedule",
+  "Lead Generate",
+  "Remote Collaboration"
+]
+
+export const footerSocialIcons = ["facebook", "twitter", "instagram", "linkedin"]
