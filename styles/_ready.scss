@@ -1,0 +1,44 @@
+.Ready {
+  background-image: url("../public/Img/ready__blur.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 50px) calc(50% + 600px);
+}
+.ready {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 0 128px 0;
+  @media screen and (max-width:500px) {
+    padding: 60px 0 60px 0;
+  }
+
+
+  h2 {
+    max-width: 550px;
+    width: 90%;
+    font-size: 44px;
+    line-height: 54px;
+
+    @media screen and (max-width:800px) {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    @media screen and (max-width:500px) {
+      font-size: 24px;
+      line-height: 24px;
+      width: 100%;
+    }
+  }
+
+  p {
+    margin: 24px 0 30px 0;
+
+    @media screen and (max-width:500px) {
+      margin: 12px 0 15px 0;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
