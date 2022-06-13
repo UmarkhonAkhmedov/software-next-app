@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Heading from '../components/Heading'
 import Hero from '../components/Home/Hero'
 import Quality from '../components/Home/Quality'
+import Reason from '../components/Home/Reason'
 
 
 const Home: NextPage = () => {
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
       <Hero />
       <Heading heading="We have the Best Solution for your Business" title="High-quality" position="center" />
       <Quality />
-      
+      <Reason />
     </div>
   )
 }
