@@ -4,6 +4,7 @@ import Heading from '../components/Heading'
 import Hero from '../components/Home/Hero'
 import Quality from '../components/Home/Quality'
 import Reason from '../components/Home/Reason'
+import More from '../components/More'
 
 
 const Home: NextPage = () => {
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Heading heading="We have the Best Solution for your Business" title="High-quality" position="center" />
       <Quality />
       <Reason />
+      <More mainBackground={true} smallBackground={false} />
     </div>
   )
 }
