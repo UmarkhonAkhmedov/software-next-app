@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Brands from '../components/Brands'
 import Heading from '../components/Heading'
 import Hero from '../components/Home/Hero'
 import Quality from '../components/Home/Quality'
@@ -19,7 +20,8 @@ const Home: NextPage = () => {
       <Heading heading="We have the Best Solution for your Business" title="High-quality" position="center" />
       <Quality />
       <Reason />
-      <More mainBackground={true} smallBackground={false} />
+      <More mainBackground={true} />
+      <Brands />
     </div>
   )
 }

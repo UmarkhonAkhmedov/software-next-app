@@ -30,3 +30,5 @@ export const footerProduct = [
 ]
 
 export const footerSocialIcons = ["facebook", "twitter", "instagram", "linkedin"]
+
+export const brandIcons = ["first", "second", "third", "fourth", "fifth"]
