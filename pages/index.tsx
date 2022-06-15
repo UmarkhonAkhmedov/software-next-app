@@ -6,6 +6,7 @@ import Heading from '../components/Heading'
 import Hero from '../components/Home/Hero'
 import Quality from '../components/Home/Quality'
 import Reason from '../components/Home/Reason'
+import Testimonials from '../components/Home/Testimonials'
 import More from '../components/More'
 
 
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <More mainBackground={true} />
       <Brands />
       <Features />
+      <Testimonials />
     </div>
   )
 }

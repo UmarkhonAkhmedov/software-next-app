@@ -41,15 +41,39 @@ export const featuresData = [
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
   },
   {
-    id: 1,
+    id: 2,
     img: "collaboration",
     title: "Simple collaboration tools",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
   },
   {
-    id: 1,
+    id: 3,
     img: "AI",
     title: "Customizable AI features",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
   }
+]
+
+export const testimonialsData = [
+  {
+    id: 1,
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    img: "first",
+    name: "Ron Wood",
+    job: "CEO"
+  },
+  {
+    id: 2,
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    img: "second",
+    name: "Mark Mason",
+    job: "Marketing Manager"
+  },
+  {
+    id: 3,
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    img: "third",
+    name: "Sam Preston",
+    job: "CTO"
+  },
 ]
