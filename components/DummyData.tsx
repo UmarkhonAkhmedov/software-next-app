@@ -32,3 +32,24 @@ export const footerProduct = [
 export const footerSocialIcons = ["facebook", "twitter", "instagram", "linkedin"]
 
 export const brandIcons = ["first", "second", "third", "fourth", "fifth"]
+
+export const featuresData = [
+  {
+    id: 1,
+    img: "encrypt",
+    title: "Advanced 256-bit encryption",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 1,
+    img: "collaboration",
+    title: "Simple collaboration tools",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 1,
+    img: "AI",
+    title: "Customizable AI features",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  }
+]
