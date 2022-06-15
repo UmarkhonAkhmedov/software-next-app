@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Brands from '../components/Brands'
 import Features from '../components/Features'
 import Heading from '../components/Heading'
+import Discover from '../components/Home/Discover'
 import Hero from '../components/Home/Hero'
 import Quality from '../components/Home/Quality'
 import Reason from '../components/Home/Reason'
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <Reason />
       <More mainBackground={true} />
       <Brands />
+      <Discover />
       <Features />
       <Testimonials />
     </div>

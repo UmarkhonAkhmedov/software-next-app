@@ -77,3 +77,24 @@ export const testimonialsData = [
     job: "CTO"
   },
 ]
+
+export const discoverData = [
+  {
+    id: 1,
+    img: "line",
+    title: "Sales Tracking",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+  },
+  {
+    id: 2,
+    img: "management",
+    title: "Project Management",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+  },
+  {
+    id: 3,
+    img: "activity",
+    title: "Activity Report",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+  },
+]
