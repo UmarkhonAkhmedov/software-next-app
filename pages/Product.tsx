@@ -1,5 +1,6 @@
 import React from 'react'
 import Brands from '../components/Brands'
+import Features from '../components/Features'
 import ProductHero from '../components/Product/ProductHero'
 
 function Product() {
@@ -9,6 +10,7 @@ function Product() {
         <ProductHero />
         <Brands />
       </div>
+      <Features />
     </div>
   )
 }
