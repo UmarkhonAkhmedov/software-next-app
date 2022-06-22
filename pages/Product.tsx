@@ -2,6 +2,7 @@ import React from 'react'
 import Brands from '../components/Brands'
 import Features from '../components/Features'
 import ProductHero from '../components/Product/ProductHero'
+import Service from '../components/Product/Service'
 
 function Product() {
   return (
@@ -10,6 +11,7 @@ function Product() {
         <ProductHero />
         <Brands />
       </div>
+      <Service />
       <Features />
     </div>
   )

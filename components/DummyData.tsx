@@ -98,3 +98,42 @@ export const discoverData = [
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
   },
 ]
+
+export const serviceData = [
+  {
+    id: 1,
+    img: 'security',
+    title: "Security and privacy",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 2,
+    img: 'coro',
+    title: "Built-in AI features",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 3,
+    img: 'collaboration',
+    title: "Collaborate with others",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 4,
+    img: 'sync',
+    title: "Real time sync",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 5,
+    img: 'AI',
+    title: "Built-in ML features",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+  {
+    id: 6,
+    img: 'notes',
+    title: "Easy notes organization",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  },
+]
