@@ -1,3 +1,9 @@
 .product__hero--background {
   background-image: linear-gradient(to right, white 35%, #c9e1ff );
 }
+
+.product__info {
+  background-image: url("../public/Img/Product/marketing__blur.svg"), url("../public/Img/Product/lead__blur.svg");
+  background-repeat: no-repeat;
+  background-position: right calc(70% + 400px) top 100px, left calc(70% + 200px) bottom -400px;
+}
