@@ -1,0 +1,114 @@
+.Contact {
+  padding: 180px 0 80px 0;
+  @media screen and (max-width:768px){
+    padding: 120px 0 40px 0;
+  }
+  @media screen and (max-width:500px){
+    padding: 100px 0 40px 0;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0 auto 60px auto;
+    @media screen and (max-width:500px){
+      margin: 0 auto 30px auto;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F0F2FE;
+  border-radius: 24px;
+  padding: 60px;
+  column-gap: 20px;
+  @media screen and (max-width:768px){
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 40px;
+  }
+  @media screen and (max-width:500px){
+    padding: 20px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+
+    h3 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    &--text {
+      margin-bottom: 40px;
+      font-size: 17px;
+    }
+
+    &--input {
+      display: flex;
+      flex-direction: column;
+      max-width: 550px;
+      width: 100%;
+
+      input {
+        background-color: #FFFFFF;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding: 18px 20px;
+        margin-bottom: 15px;
+
+        &::placeholder {
+          font-size: 14px;
+          color: #1D2130;
+          opacity: 0.8;
+        }
+      }
+
+      &__big {
+        max-width: 550px;
+        width: 100%;
+        background-color: greenyellow;
+        border: 1px solid red;
+      }
+      &__small {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 10px;
+        max-width: 550px;
+        width: 100%;
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    max-width: 350px;
+    width: 100%;
+    &--item {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+
+      p {
+        color: #1D2130;
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      span {
+        color: #0D1317;
+        opacity: 0.6z;
+      }
+    }
+  }
+}

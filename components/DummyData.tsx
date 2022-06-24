@@ -137,3 +137,24 @@ export const serviceData = [
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
   },
 ]
+
+export const contactData = [
+  {
+    id: 1,
+    icon: "mobile",
+    text: "+ 1800 145 276",
+    smallText: "Free support"
+  },
+  {
+    id: 2,
+    icon: "gmail",
+    text: "finsweet@gmail.com",
+    smallText: "Help Email support"
+  },
+  {
+    id: 3,
+    icon: "message",
+    text: "sales@finsweet.com",
+    smallText: "Sales Enquiry"
+  },
+]
