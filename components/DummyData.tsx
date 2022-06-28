@@ -158,3 +158,12 @@ export const contactData = [
     smallText: "Sales Enquiry"
   },
 ]
+
+export const plansData = [
+  {
+    id: 1,
+    icon: "",
+    title: "Regular",
+    subtitle: "Starter Plan"
+  }
+]
