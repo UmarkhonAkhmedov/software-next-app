@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
+import { plansData } from '../DummyData'
 
 function Plans() {
   return (
@@ -13,7 +15,30 @@ function Plans() {
           </div>
         </div>
         <div className='plans'>
-
+          {plansData.map((item) => (
+            <div className='plans__item'>
+              <div className='plans__item--header'>
+                <Image src={`/Img/Pricing/${item.icon}__icon.svg`} width={52} height={52} alt="Icon" />
+                <div>
+                  <h4>{item.title}</h4>
+                  <p>{item.subtitle}</p>
+                </div>
+              </div>
+              <hr className='plans__item--line' />
+              <ul className='plans__item--list'>
+                {item.features.map((feature) => (
+                  <div>
+                    <Image src="/Img/Pricing/pricing__tick.svg" width={22} height={22} alt="" />
+                    <li>{feature}</li>
+                  </div>
+                ))}
+              </ul>
+              <p className='plans__item--text'>{item.text}</p>
+              <span className='plans__item--price'>{item.price}</span>
+              <span className='plans__item--priceInfo'>{item.priceInfo}</span>
+              <button className='btn__dark'>Get started</button>
+            </div>
+          ))}
         </div>
       </div>
     </div>

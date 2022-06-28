@@ -162,8 +162,32 @@ export const contactData = [
 export const plansData = [
   {
     id: 1,
-    icon: "",
+    icon: "regular",
     title: "Regular",
-    subtitle: "Starter Plan"
+    subtitle: "Starter Plan",
+    features: ["Limited Projects", "Regular Support Business", "1 month Free Trial", "3GB storage", "Ads Preview"],
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    price: "Free",
+    priceInfo: "For Limited Period"
+  },
+  {
+    id: 2,
+    icon: "plat",
+    title: "Plantinum",
+    subtitle: "For the best results",
+    features: ["Limited Projects", "Regular Support Business", "1 month Free Trial", "20GB storage", "Ads Preview"],
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    price: "$342",
+    priceInfo: "For Limited Period"
+  },
+  {
+    id: 3,
+    icon: "standard",
+    title: "Standard",
+    subtitle: "Most popular",
+    features: ["Limited Projects", "Regular Support Business", "1 month Free Trial", "10GB storage", "Ads Preview"],
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    price: "$234",
+    priceInfo: "Billing Monthly"
   }
 ]
