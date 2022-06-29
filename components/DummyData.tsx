@@ -191,3 +191,22 @@ export const plansData = [
     priceInfo: "Billing Monthly"
   }
 ]
+
+export const accordionData = [
+  {
+    title: "How do I grow my business?",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    title: "Can I cancel my subscription?",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    title: "How do I contact the support?",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    title: "Is a credit card required?",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  }
+]
