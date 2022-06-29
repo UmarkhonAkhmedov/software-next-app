@@ -32,13 +32,13 @@ function Navbar() {
           {open && (
             <div className='nav__mob'>
               <div className='nav__mob--link'>
-                <Link href="/" passHref>Home</Link>
+                <Link href="/" passHref onClick={() => setOpen(!open)}>Home</Link>
                 {navItems.map((item) => (
-                  <Link href={`/${item}`} passHref>{item}</Link>
+                  <Link href={`/${item}`} passHref onClick={() => setOpen(!open)}>{item}</Link>
                 ))}
               </div>
               <div className='nav__mob--button'>
-                <Link href="/pricing" passHref><button className='btn__dark'>Free trial</button></Link>
+                <Link href="/Pricing" passHref><button className='btn__dark'>Free trial</button></Link>
               </div>
             </div>
           )}
