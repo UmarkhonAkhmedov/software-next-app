@@ -10,7 +10,7 @@ function Heading({ heading, title, position }: Props) {
   return (
       <div className={`Heading ${position === 'center' ? "HeadingOne" : "HeadingTwo"}`}> 
         <h3>{title}</h3>
-        <h2 style={{margin: '0 auto'}}>{heading}</h2>
+        <h2>{heading}</h2>
 
         
       </div>

@@ -1,0 +1,27 @@
+.Goals {
+  background-color: #F0F2FE;
+  padding: 50px 0 100px 0;
+
+  @media screen and (max-width:500px){
+    padding: 25px 0 50px 0;
+  }
+}
+
+.goals {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+
+  &__item {
+    max-width: 570px;
+    width: 100%;
+
+    p {
+      margin-top: 20px;
+      @media screen and (max-width:500px){
+        margin-top: 10px;
+      }
+    }
+    
+  }
+}

@@ -3,7 +3,6 @@ import React from 'react'
 import { qualityData } from '../DummyData'
 
 
-
 function Quality() {
   return (
     <div className='Quality'>

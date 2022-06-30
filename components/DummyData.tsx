@@ -212,3 +212,42 @@ export const accordionData = [
 ]
 
 export const proudImg = ["first", "second", "third"]
+
+export const corporateData = [
+  {
+    id: 1,
+    icon: "class",
+    title: "Best in Class",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+  },
+  {
+    id: 2,
+    icon: "auth",
+    title: "Authenticity",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+  },
+  {
+    id: 3,
+    icon: "mail",
+    title: "Email Support",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+  },
+  {
+    id: 4,
+    icon: "discount",
+    title: "Discounts Available",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+  },
+  {
+    id: 5,
+    icon: "marketing",
+    title: "Powerful Marketing",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+  },
+  {
+    id: 6,
+    icon: "management",
+    title: "Inventory management",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+  },
+]
