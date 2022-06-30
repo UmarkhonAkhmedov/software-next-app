@@ -251,3 +251,42 @@ export const corporateData = [
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
   },
 ]
+
+export const teamData = [
+  {
+    id: 1,
+    img: "first",
+    name: "Blake Matthews",
+    job: "CEO & Co-Founder",
+  },
+  {
+    id: 2,
+    img: "second",
+    name: "Jack Newman",
+    job: "CTO",
+  },
+  {
+    id: 3,
+    img: "third",
+    name: "Sarinia Martins",
+    job: "Marketing",
+  },
+  {
+    id: 4,
+    img: "fourth",
+    name: "Spencer Wright",
+    job: "Project management",
+  },
+  {
+    id: 5,
+    img: "fifth",
+    name: "Caroline Ming",
+    job: "Sales",
+  },
+  {
+    id: 6,
+    img: "sixth",
+    name: "Anna Mills",
+    job: "Design lead",
+  },
+]
