@@ -6,7 +6,7 @@ function Pricing() {
   return (
     <div>
       <Plans />
-      <FAQ />
+      {/* <FAQ /> */}
     </div>
   )
 }
