@@ -10,7 +10,7 @@ function Testimonials() {
         {testimonialsData.map((item) => (
           <div key={item.id} className='testimonials__item'>
             <p>{item.text}</p>
-            <Image src={`/Img/Home/testimonials__${item.img}.svg`} width={55} height={55} objectFit="contain" />
+            <Image src={`/Img/Home/testimonials__${item.img}.svg`} width={55} height={55} objectFit="contain" alt="" />
             <h5>{item.name}</h5>
             <h6>{item.job}</h6>
           </div>

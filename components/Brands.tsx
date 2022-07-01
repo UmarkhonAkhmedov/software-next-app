@@ -7,7 +7,7 @@ function Brands() {
     <div className='container'>
       <div className='brands'>
         {brandIcons.map((img, id) => (
-          <Image key={id} src={`/Img/Home/brand__${img}.svg`} width={160} height={35} priority />
+          <Image key={id} src={`/Img/Home/brand__${img}.svg`} width={160} height={35} priority alt="" />
         ))}
       </div>
     </div>

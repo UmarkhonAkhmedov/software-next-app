@@ -24,8 +24,8 @@ function Footer() {
           </div>
           <div className='footer__list footer__product'>
             <h4>Product</h4>
-            {footerProduct.map((product) => (
-              <Link href="/" passHref>{product}</Link>
+            {footerProduct.map((product, id) => (
+              <Link key={id} href="/" passHref>{product}</Link>
             ))}
           </div>
           <div className='footer__info'>
