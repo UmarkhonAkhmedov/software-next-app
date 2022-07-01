@@ -26,8 +26,8 @@ function Plans() {
               </div>
               <hr className='plans__item--line' />
               <ul className='plans__item--list'>
-                {item.features.map((feature) => (
-                  <div>
+                {item.features.map((feature, id) => (
+                  <div key={id}>
                     <Image src="/Img/Pricing/pricing__tick.svg" width={22} height={22} alt="" />
                     <li>{feature}</li>
                   </div>

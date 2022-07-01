@@ -15,7 +15,7 @@ function Discover() {
           {discoverData.map((item) => (
             <div key={item.id} className="discover__info--item">
               <div className='discover__info--item__img'>
-                <Image src={`/Img/Home/discover__${item.img}.svg`} width={30} height={30} objectFit="contain" />
+                <Image src={`/Img/Home/discover__${item.img}.svg`} width={30} height={30} objectFit="contain" alt="" />
               </div>
               <div className='discover__info--item__text'>
                 <h5>{item.title}</h5>

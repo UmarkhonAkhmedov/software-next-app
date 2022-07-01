@@ -9,7 +9,7 @@ function Features() {
       <div className='features'>
         {featuresData.map((item) => (
           <div key={item.id} className='features__item'>
-            <Image src={`/Img/Home/features__${item.img}.svg`} width={55} height={55} objectFit="contain"/>
+            <Image src={`/Img/Home/features__${item.img}.svg`} width={55} height={55} objectFit="contain" alt="" />
             <h4>{item.title}</h4>
             <p>{item.text}</p>
           </div>
