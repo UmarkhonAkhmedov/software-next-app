@@ -20,7 +20,7 @@ function ProductHero() {
             </div>
           </div>
           <div className='proHero__img'>
-            <Image src="/Img/Product/hero__dashboard.png" width={550} height={360} priority objectFit='contain' />
+            <Image src="/Img/Product/hero__dashboard.png" width={550} height={360} priority objectFit='contain' alt="" />
           </div>
         </div>
       </div>

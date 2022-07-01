@@ -45,7 +45,7 @@ function Footer() {
             <p>© Copyright Finsweet 2022</p>
             <div className='copyright__list--icons'>
               {footerSocialIcons.map((icon, i) => (
-                <a href={`https://www.${icon}.com`} target="_blank">
+                <a key={i} href={`https://www.${icon}.com`}>
                   <Image key={i} src={`/Img/footer__${icon}.svg`} layout="fill" alt="" />
                 </a>
               ))}

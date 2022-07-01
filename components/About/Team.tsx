@@ -12,8 +12,8 @@ function Team() {
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>
           </div>
           <div className='team__list'>
-            {teamData.map((item) => (
-              <div className='team__list--item'>
+            {teamData.map((item, id) => (
+              <div key={id} className='team__list--item'>
                 <Image src={`/Img/About/team__${item.img}.svg`} width={220} height={210} alt="" objectFit='cover' />
                 <div>
                   <h4>{item.name}</h4>

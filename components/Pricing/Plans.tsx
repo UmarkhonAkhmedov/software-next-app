@@ -16,7 +16,7 @@ function Plans() {
         </div>
         <div className='plans'>
           {plansData.map((item) => (
-            <div className='plans__item'>
+            <div key={item.id} className='plans__item'>
               <div className='plans__item--header'>
                 <Image src={`/Img/Pricing/${item.icon}__icon.svg`} width={52} height={52} alt="Icon" />
                 <div>
