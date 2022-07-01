@@ -1,4 +1,12 @@
 .Latest {
+  background-image: 
+    url("../../public/Img/Blog/read__blur.svg"),
+    url("../../public/Img/Blog/read__blur.svg");
+  background-position: 
+    left calc(50% - 600px) top -100px, 
+    right calc(50% - 500px) top -200px;
+  background-repeat: no-repeat;
+
   padding: 160px 0 80px 0;
   @media screen and (max-width:768px){
     padding: 100px 0 40px 0;
